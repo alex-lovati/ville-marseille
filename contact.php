@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/marseille.css" />
+    <link rel="stylesheet" type="text/css" href="css/contact.css" />
     <link rel="stylesheet" type="text/css" href="header/footer/header.css" />
     <link rel="stylesheet" type="text/css" href="header/footer/footer.css" />
     <title>Accueil</title>
@@ -17,7 +17,23 @@
     </header>
 
     <main>
-        
+    <h3>Formulaire de contact</h3>
+
+<div class="container">
+    <form action="/action_page.php">
+    <label for="fname">Prénom</label>
+    <input type="text" id="fname" name="Prénom" placeholder="Votre prénom">
+
+    <label for="lname">Nom</label>
+    <input type="text" id="lname" name="Nom" placeholder="Votre Nom">
+
+    <label for="subject">Votre demande</label>
+    <textarea id="subject" name="subject" placeholder="" style="height:200px"></textarea>
+
+    <input type="submit" value="Envoyer">
+    </form>
+</div>
+
     </main>
 
     <footer>
