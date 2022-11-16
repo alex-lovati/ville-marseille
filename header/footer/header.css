@@ -5,7 +5,8 @@ body{
 
 .navbar {
   overflow: hidden;
-  background-color: #006532a4; 
+  background-color: #006532; 
+  width: 100%;
 }
 
 .navbar a {
@@ -34,14 +35,14 @@ body{
 }
 
 .navbar a:hover, .subnav:hover .subnavbtn {
-  background-color: #27c576;
+  background-color: #27c57684;
 }
 
 .subnav-content {
   display: none;
   position: absolute;
   left: 140px;
-  background-color: #27c576;
+  background-color: #27c57682;
   width: 100%;
   z-index: 1;
 }

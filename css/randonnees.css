@@ -1,0 +1,54 @@
+main{
+  color: #006532a4;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+}
+
+h1{
+  padding: 20px;
+}
+
+#gallery{
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.section{
+  padding: 10px;
+}
+
+.section img{
+  width: 500px;
+}
+
+#gallery2{
+display: flex;
+flex-direction: row;
+justify-content: center;
+background-color: #006532;
+padding-top: 30px;
+padding-bottom: 30px;
+
+}
+
+#gallery2 img{
+  width: 400px;
+  margin: 10px;
+  box-shadow: 5px 5px 0px 5px white;
+  /* border: 20px white; */
+}
+
+.carte_h2{
+  text-align: center;
+  padding: 30px;
+}
+.carte{
+  display: flex;
+  justify-content: center;
+
+}
+.carte img{
+
+  width: 600px;
+}

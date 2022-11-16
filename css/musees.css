@@ -1,0 +1,21 @@
+main{
+  color: #006532a4;
+  width: 100%;
+}
+h1{
+  text-align: center;
+  padding-bottom: 20px;
+}
+#gallery{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.section{
+  padding: 10px;
+}
+
+.section img{
+  width: 400px;
+}
